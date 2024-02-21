@@ -8,7 +8,7 @@ import React from 'react'
    
    //keyword default allows us to import it as an name...
    */
-const Greet =()=><h3> Hello This is Rohit from Arrow </h3>
+const Greet =()=><h3> Hello This is Rohit Pol obtained from Arrow Function</h3>
 export default Greet
 
 
