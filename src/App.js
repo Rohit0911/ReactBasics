@@ -4,6 +4,7 @@ import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import UnderstdProps from "./components/UnderstdProps";
 import Dynamicprops_state from "./components/Dynamicprops_state";
+import Count_usestate from "./components/Count_usestate";
 
 function App() {
   return (
@@ -27,7 +28,9 @@ function App() {
       <Welcome name ="Props accessing from the class component"/>
       <Welcome name ="Props are immutable"/> */}
 
-      <Dynamicprops_state/>
+      {/* <Dynamicprops_state/> */}
+
+      <Count_usestate/>
 
 
     </div>
