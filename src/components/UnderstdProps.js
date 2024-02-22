@@ -1,6 +1,7 @@
 import React from "react";
 
 const UnderstdProps = (props) => {
+
   //   console.log(props)
 
   return (
@@ -12,5 +13,32 @@ const UnderstdProps = (props) => {
     </div>
   );
 };
+
+/* Or you can do destructuring using a different approach
+const UnderstdProps = (name,sname) => {
+
+  
+
+  return (
+    <div>
+      
+      <h3>Hello {name} {sname}</h3>
+      
+
+    </div>
+  );
+};
+
+// Or write 
+
+const {name,sname}=props
+
+return{
+  <h3>Hello {name} {sname}</h3>
+}
+
+
+
+*/
 
 export default UnderstdProps;

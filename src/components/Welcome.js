@@ -9,5 +9,12 @@ class Welcome extends Component{
 
 }
 
+/* Or you can destructure it by
+const {name,sname}=this.props
+
+and use it without this.props.name , this.props.sname
+
+*/
+
 
 export default Welcome
