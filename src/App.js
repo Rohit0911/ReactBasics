@@ -7,6 +7,7 @@ import Dynamicprops_state from "./components/Dynamicprops_state";
 import Count_usestate from "./components/Count_usestate";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
+import EventBinding from "./components/EventBinding";
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
 
       {/* <FunctionClick/> */}
 
-      <ClassClick/>
+      {/* <ClassClick/> */}
+      <EventBinding/>
 
 
     </div>
