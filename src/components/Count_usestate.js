@@ -10,9 +10,8 @@ class Count_usestate extends Component {
   }
 
   /*incrementCount() {
-    this.setState(
-      {
-        count: this.state.count + 1,
+    this.setState({
+      count: this.state.count + 1
       },
       () => {
         console.log("Callback value", this.state.count);
@@ -52,3 +51,4 @@ class Count_usestate extends Component {
 }
 
 export default Count_usestate;
+ 
