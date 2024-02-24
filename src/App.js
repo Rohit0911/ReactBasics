@@ -8,6 +8,7 @@ import Count_usestate from "./components/Count_usestate";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import EventBinding from "./components/EventBinding";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
@@ -38,7 +39,9 @@ function App() {
       {/* <FunctionClick/> */}
 
       {/* <ClassClick/> */}
-      <EventBinding/>
+      {/* <EventBinding/> */}
+
+      <ParentComponent/>
 
 
     </div>
