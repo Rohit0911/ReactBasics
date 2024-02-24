@@ -5,6 +5,8 @@ import Hello from "./components/Hello";
 import UnderstdProps from "./components/UnderstdProps";
 import Dynamicprops_state from "./components/Dynamicprops_state";
 import Count_usestate from "./components/Count_usestate";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
 
 function App() {
   return (
@@ -30,7 +32,11 @@ function App() {
 
       {/* <Dynamicprops_state/> */}
 
-      <Count_usestate/>
+      {/* <Count_usestate/> */}
+
+      {/* <FunctionClick/> */}
+
+      <ClassClick/>
 
 
     </div>
