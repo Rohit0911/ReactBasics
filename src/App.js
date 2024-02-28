@@ -16,8 +16,8 @@ function App() {
       {/* <Greet/>
       <Welcome/>
       <Hello/> */}
-
-      {/* <UnderstdProps name="Bruce" sname="Wayne" />
+{/* 
+      <UnderstdProps name="Bruce" sname="Wayne" />
 
       <UnderstdProps name="Tony" sname="Stark">
         <button>Submit</button>
@@ -25,12 +25,12 @@ function App() {
 
       <UnderstdProps name="Steve" sname="Rogers">
         <p>This is children which we can call using props.children</p>
-      </UnderstdProps>
-
+    </UnderstdProps> */}
+{/* 
       <h6>*************************************************</h6>
 
       <Welcome name ="Props accessing from the class component"/>
-      <Welcome name ="Props are immutable"/> */}
+      <Welcome name ="Props are immutable"/>  */}
 
       {/* <Dynamicprops_state/> */}
 

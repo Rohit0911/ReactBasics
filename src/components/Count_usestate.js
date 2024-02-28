@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 class Count_usestate extends Component {
+
   constructor(props) {
     super(props);
 
@@ -9,16 +10,16 @@ class Count_usestate extends Component {
     };
   }
 
-  /*incrementCount() {
-    this.setState({
-      count: this.state.count + 1
-      },
-      () => {
-        console.log("Callback value", this.state.count);
-      }
-    );
-    // console.log(this.state.count); This gets executed before the setstate due to asynchronous nature
-  } */
+  // incrementCount() {
+  //   this.setState({
+  //     count: this.count + 1
+  //     },
+  //     () => {
+  //       console.log("Callback value", this.state.count);
+  //     }
+  //   );
+  //   // console.log(this.state.count); This gets executed before the setstate due to asynchronous nature
+  // } 
 
 
   // Way to update the current state based on some previous state values.

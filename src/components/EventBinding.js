@@ -34,7 +34,7 @@ class EventBinding extends Component {
 
          {/*Both approach 1 and 2 has performance implications  */}
         {/* Approach 3 */}
-         <button onClick={this.newclickHandler}>Click</button> 
+         {/* <button onClick={this.newclickHandler}>Click</button>  */}
 
 
         
